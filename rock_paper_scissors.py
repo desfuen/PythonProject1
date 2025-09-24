@@ -11,7 +11,7 @@ def jump_text(text, repeat=3):
         for pos in positions:
             sys.stdout.write("\r" + " " * pos + text)
             sys.stdout.flush()
-            time.sleep(1)
+            time.sleep(0.2)
     print()
 
 rock = """
